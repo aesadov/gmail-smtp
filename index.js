@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({extended: false}))
 // parse application/json
 app.use(bodyParser.json())
 
-const port = process.env.PORT || 3010
+const port = process.env.PORT || 10000
 const smtp_login = process.env.SMTP_LOGIN || "---"
 const smtp_password = process.env.SMTP_PASSWORD || "---"
 
